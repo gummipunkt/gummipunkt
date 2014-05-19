@@ -1,0 +1,32 @@
+{{!< default}}
+    <div id="header-start">
+        <p class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></p>
+        <p>{{@blog.description}}</p>
+    </div>
+    <div id="mitte">
+    <div id="navigation">
+        <p>.:navigation:.</p>
+        <p class="link-title"><a href="/about">about</a></p>
+        <p>.:follow me:.</p>
+        <p class="link-title"><a href="https://twitter.com/gummipunkt">twitter</a></p>
+        <p class="link-title"><a href="https://www.facebook.com/derpatti">facebook</a></p>
+        <p class="link-title"><a href="https://plus.google.com/+PatrickWalter1/posts">google+</a></p>
+    </div>
+    <div id="main-index">
+    {{! Each post will be output using this markup }}
+    {{#foreach posts}}
+    <article class="{{post_class}}">
+        <header class="post-header">
+            <p class="post-title"><a href="{{url}}">{{{title}}}</a> - {{author}} - <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{tags prefix="on "}}</span>
+
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt}}&hellip;</p>
+        </section>
+    </article>
+    <hr>
+    {{/foreach}}
+{{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+    </div>
+</div>

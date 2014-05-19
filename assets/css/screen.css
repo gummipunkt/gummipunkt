@@ -1,0 +1,155 @@
+/* to change background color change "black" into your favorit color! */
+
+body {
+    background-color: black;
+}
+
+/*  to change fonts color change "green" into your favorit color!
+    to change fonts change font family into your favorit font, see i.e. in google fonts.
+    change it too in default.hbs!
+*/
+p, h1, h2, h3, h4, h5, h6, h7, ul, li {
+    color: green;
+    font-family: 'VT323' ;
+}
+
+i {
+    color: green;
+}
+
+a {
+    color: green;
+    font-family: 'VT323' ;
+    text-decoration:overline underline;
+}
+
+/* to change text decoration edit ext-decoration in your favorit one! */
+.blog-title a {
+    color: green;
+    text-decoration:overline underline;
+}
+
+.doubleline p {
+    text-decoration:overline underline;
+}
+
+/* to change text decoration edit ext-decoration in your favorit one! */
+.post-title a{
+    color: green;
+}
+
+/* to change hover color change "white" into your favorit color! */
+a:hover {
+    color: white;
+}
+
+.post {
+    color: green;
+}
+
+.post-title a {
+    color: green;
+}
+
+.post-title-post p {
+    color: green;
+}
+
+.link-title a {
+    color: green;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    color: grey;
+}
+
+/* at first, make a header */
+#header-start {
+    float: center;
+    width: 100%;
+    height: 100px;
+}
+
+/* at the second step, we build a big window under the header */
+#mitte {
+position: relative;
+width="100%"
+}
+
+/* third move: we get a navigation */
+#navigation {
+    float: left;
+    width: 100;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* fourth step: main index for our blog news */
+#main-index {
+    margin: 0px 180px;
+}
+
+/* at last we get a footer - navigation, main-index and footer general are all in #mitte */
+#footer-general {
+    height="auto";
+}
+
+/* this three nice blocks are for the footer text */
+.footer_center p {
+    color: green;
+    display: block;
+    text-align: right;
+}
+
+.footer_center a {
+    color: green;
+    display: block;
+    text-align: right;
+}
+
+a:hover {
+    color: white;
+}
+
+#post-header{
+    float: center;
+    width: 100%;
+    height: 100px;
+}
+
+#post-mitte {
+position: relative;
+width="100%"
+}
+
+code, tt {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    background: black;
+    color: red;
+}
+
+
+blockquote {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 1.6em;
+    border-left: green 0.6em solid;
+}
+
+blockquote p {
+    margin: 0.8em 0;
+    font-style: italic;
+}
+
+.pagination {
+	margin-bottom:1em;
+    color: green;
+    font-family: 'VT323' ;
+}

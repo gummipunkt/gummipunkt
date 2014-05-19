@@ -1,0 +1,16 @@
+{{!< default}}
+<div id="header-post"> 
+<span class="doubleline"><p>:: {{meta_title}} {{#post}} :: {{#foreach tags}} {{name}} {{/foreach}} ::</b></span>
+</div>
+<div id="post-mitte">
+<a href="javascript:history.back()" onMouseOver="{window.status='Zurück'; return true;}">
+Zurück</a>
+{{content}}    
+    <hr> /* break line*/
+    <p>from:</p> /* author details */
+    <p>{{author.name}} - Feedback? Send me a <a href="mailto:{{author.email}}">mail</a></p>
+    <p>{{author.bio}}</p>
+    
+    
+{{/post}}
+</div>
