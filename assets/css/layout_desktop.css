@@ -1,0 +1,53 @@
+/* at first, make a header */
+#header-start {
+    float: center;
+    width: 100%;
+    height: 100px;
+}
+
+/* at the second step, we build a big window under the header */
+#mitte {
+position: relative;
+width="100%"
+}
+
+/* third move: we get a navigation */
+#navigation {
+    float: left;
+    width: 10%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+/* fourth step: main index for our blog news and for postsites and sites */
+#main-index {
+    margin: 0px 15%;
+}
+
+/* at last we get a footer - navigation, main-index and footer general are all in #mitte */
+#footer-general {
+    height="auto";
+}
+
+/* layout for single preview entrys on main site */
+#post-header{
+    float: center;
+    width: 100%;
+    height: 100px;
+}
+
+/*Header for Posts and Sites */
+#post-start {
+    float: center;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*
+#post-mitte {
+position: relative;
+width="100%"
+}
+*/

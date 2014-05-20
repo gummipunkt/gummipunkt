@@ -8,28 +8,14 @@ body {
     to change fonts change font family into your favorit font, see i.e. in google fonts.
     change it too in default.hbs!
 */
-p, h1, h2, h3, h4, h5, h6, h7, ul, li {
+p, h1, h2, h3, h4, h5, h6, h7, ul, li, i {
     color: green;
     font-family: 'VT323' ;
-}
-
-i {
-    color: green;
-}
-
-a {
-    color: green;
-    font-family: 'VT323' ;
-    text-decoration:overline underline;
 }
 
 /* to change text decoration edit ext-decoration in your favorit one! */
 .blog-title a {
     color: green;
-    text-decoration:overline underline;
-}
-
-.doubleline p {
     text-decoration:overline underline;
 }
 
@@ -43,15 +29,7 @@ a:hover {
     color: white;
 }
 
-.post {
-    color: green;
-}
-
 .post-title a {
-    color: green;
-}
-
-.post-title-post p {
     color: green;
 }
 
@@ -67,36 +45,7 @@ hr {
     color: grey;
 }
 
-/* at first, make a header */
-#header-start {
-    float: center;
-    width: 100%;
-    height: 100px;
-}
-
-/* at the second step, we build a big window under the header */
-#mitte {
-position: relative;
-width="100%"
-}
-
-/* third move: we get a navigation */
-#navigation {
-    float: left;
-    width: 100;
-    height: auto;
-    margin-right: 20px;
-}
-
-/* fourth step: main index for our blog news */
-#main-index {
-    margin: 0px 180px;
-}
-
-/* at last we get a footer - navigation, main-index and footer general are all in #mitte */
-#footer-general {
-    height="auto";
-}
+/* first old block */
 
 /* this three nice blocks are for the footer text */
 .footer_center p {
@@ -115,16 +64,7 @@ a:hover {
     color: white;
 }
 
-#post-header{
-    float: center;
-    width: 100%;
-    height: 100px;
-}
-
-#post-mitte {
-position: relative;
-width="100%"
-}
+/* second old block */
 
 code, tt {
     padding: 1px 3px;

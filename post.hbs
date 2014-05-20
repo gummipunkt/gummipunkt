@@ -1,13 +1,15 @@
 {{!< default}}
-<div id="header-post"> 
-<span class="doubleline"><p>:: {{meta_title}} {{#post}} :: {{#foreach tags}} {{name}} {{/foreach}} ::</b></span>
+<link rel="stylesheet" type="text/css" href="{{asset "css/post.css"}}" />
+<div id="post-start"> 
+<span class="doubleline"><p>:: {{meta_title}} {{#post}} :: {{#foreach tags}} {{name}} {{/foreach}} :: <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> ::</p></span>
 </div>
-<div id="post-mitte">
-<a href="javascript:history.back()" onMouseOver="{window.status='Zurück'; return true;}">
-Zurück</a>
-{{content}}    
-    <hr> /* break line*/
-    <p>from:</p> /* author details */
+<div id="main-index">
+<p class="post-back"><a href="javascript:history.back()" onMouseOver="{window.status='Zurück'; return true;}">
+Zurück</a></p>
+<p class="post-complete">{{content}}</p>   
+<p class="post-back"><a href="javascript:history.back()" onMouseOver="{window.status='Zurück'; return true;}">
+Zurück</a></p>
+    <hr>
     <p>{{author.name}} - Feedback? Send me a <a href="mailto:{{author.email}}">mail</a></p>
     <p>{{author.bio}}</p>
     

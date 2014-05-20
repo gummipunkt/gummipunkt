@@ -1,0 +1,39 @@
+.post-complete p {
+    color: green;
+}
+
+.post-complete a {
+    color: green;
+    text-decoration:overline underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration:overline underline;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+        color: red;
+}
+
+.post-back a {
+    color: green;
+    font-family: 'VT323' ;
+}
+
+
+.doubleline p {
+    text-decoration:overline underline;
+}
+
+.post {
+    color: green;
+}
+
+.post-title-post p {
+    color: green;
+}
