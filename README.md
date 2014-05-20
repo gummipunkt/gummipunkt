@@ -9,22 +9,27 @@ GhostV 0.4.3
 
 A Ghost Theme in Terminaloldschool-Style
 
-** Fixes
-* 0.4.3: Bugs, Linkcolor
+* Fixes
+    * 0.4.3: Bugs, Linkcolor
+    * 0.4.4: Bugs, Smartphone are ok yet, landscape little buggy in navigation
 
-** Bugs
-* Design for Mobile Phones are too small, Tablet is okay yet.
-* Some Styles arnt functionability
-* Code comments are not all in english
-* Included Media like Pics are not nice to see
+* Bugs
+    * Design for Mobile Phones in landscape too small
+    * Some Styles arnt functionability
+    * Code comments are not all in english
+    * Included Media like Pics are not nice to see
 
-** Features
-* Small, easy, leightweight
-* Responsive Webdesign
-* Licence: The Unlicense, CC Zero. Summary: Public Domain! Make anything nice with it.
-* Share in Posts
+* Features
+    * Small, easy, leightweight
+    * Responsive Webdesign
+    * Licence: The Unlicense, CC Zero. Summary: Public Domain! Make anything nice with it.
+    * Share in Posts
 
-### PIWIK
+* Coming
+    * Comments
+
+
+### ATTENTION
 Pls delete Piwik Code in default.hbs before using. Thanks.
 
 ### Demo
