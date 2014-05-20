@@ -28,6 +28,7 @@ a:active {
 
 .doubleline p {
     text-decoration:overline underline;
+    color: white;
 }
 
 .post {
@@ -36,4 +37,22 @@ a:active {
 
 .post-title-post p {
     color: green;
+}
+
+.social-post a {
+    color: green;
+    text-decoration:overline underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration:overline underline;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+        color: red;
 }
