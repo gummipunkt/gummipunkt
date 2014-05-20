@@ -3,7 +3,7 @@ gummipunkt
 
 a ghost theme
 
-ThemeV 0.2 
+ThemeV 0.2.1
 Date: May 20, 2014
 GhostV 0.4.2
 
@@ -19,6 +19,10 @@ A Ghost Theme in Terminaloldschool-Style
 * Small, easy, leightweight
 * Responsive Webdesign
 * Licence: The Unlicense, CC Zero. Summary: Public Domain! Make anything nice with it.
+* Share in Posts
+
+### PIWIK
+Pls delete Piwik Code in default.hbs before. Thanks.
 
 ### Demo
 http://www.gummipunkt.eu
