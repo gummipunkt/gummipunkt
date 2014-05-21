@@ -1,11 +1,14 @@
+<!DOCTYPE html> 
 <html>
 <head>
     {{! Document Settings }}
+    
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     {{! Page Meta }}
     <title>{{meta_title}}</title>
+    <meta name="language" content="de">
     <meta name="description" content="{{meta_description}}" />
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
     <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
@@ -21,24 +24,8 @@
     {{{body}}}
     {{ghost_foot}} <p class="footer_center"><a href="http://www.gummipunkt.eu">by gummi:punkt, cc zero 2014</a></p>
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <script src="/assets/js/jquery.ghostHunter.min.js"></script>
     <script src="/assets/js/search.js"></script>
-    
-    <!-- Piwik -->
-    <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.gummipunkt.eu/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-    </script>
-    <noscript><p><img src="http://piwik.gummipunkt.eu/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </body>    
 </html>

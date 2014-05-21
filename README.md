@@ -3,9 +3,9 @@ gummipunkt
 
 a ghost theme
 
-ThemeV 0.2.1
+ThemeV 0.5.2
 Date: May 21, 2014
-GhostV 0.5.1
+GhostV 0.4.2
 
 A Ghost Theme in Terminaloldschool-Style
 
@@ -13,6 +13,7 @@ A Ghost Theme in Terminaloldschool-Style
     * 0.5: Search Field with GhostHunter was included, new file search.js in /assets/js
 
 * Fixes
+    * Kicking piwik code
     * 0.5.1: Search form now in Theme Style
     * 0.5: Little Bugs
     * 0.4.5: Landscape for Tablet and Smartphone much better. Not perfect yet, but it is a good start!
@@ -32,7 +33,7 @@ A Ghost Theme in Terminaloldschool-Style
     * Share in Posts
 
 * Coming
-    * Comments
+    * Comments in SQLite and js
 
 
 ### ATTENTION
