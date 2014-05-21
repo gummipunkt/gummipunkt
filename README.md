@@ -5,7 +5,7 @@ a ghost theme
 
 ThemeV 0.2.1
 Date: May 21, 2014
-GhostV 0.5
+GhostV 0.5.1
 
 A Ghost Theme in Terminaloldschool-Style
 
@@ -13,6 +13,7 @@ A Ghost Theme in Terminaloldschool-Style
     * 0.5: Search Field with GhostHunter was included, new file search.js in /assets/js
 
 * Fixes
+    * 0.5.1: Search form now in Theme Style
     * 0.5: Little Bugs
     * 0.4.5: Landscape for Tablet and Smartphone much better. Not perfect yet, but it is a good start!
     * 0.4.4: Bugs, Smartphone are ok yet, landscape little buggy in navigation

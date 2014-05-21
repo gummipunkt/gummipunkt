@@ -105,3 +105,13 @@ blockquote p {
     color: green;
     font-family: 'VT323' ;
 }
+
+.search { 
+	background: black; 
+    border: 0;
+}
+
+input[type=text]{
+	color:green;
+    text-align: center;
+}
