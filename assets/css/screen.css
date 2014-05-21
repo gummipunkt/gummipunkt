@@ -41,6 +41,18 @@ a:hover {
     color: white;
 }
 
+.search-title p {
+    color: white;
+}
+
+.search-title a {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
 hr {
     color: grey;
 }

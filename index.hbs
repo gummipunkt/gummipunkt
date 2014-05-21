@@ -11,10 +11,15 @@
         <p class="link-title"><a href="https://twitter.com/gummipunkt">twitter</a></p>
         <p class="link-title"><a href="https://www.facebook.com/derpatti">facebook</a></p>
         <p class="link-title"><a href="https://plus.google.com/+PatrickWalter1/posts">google+</a></p>
+        <form>
+        <input id="search-field" />
+        </form>
     </div>
     <div id="main-index">
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
+        </section>
+    <section id="results"></section>
     <article class="{{post_class}}">
         <header class="post-header">
             <p class="post-title"><a href="{{url}}">{{{title}}}</a> - {{author}} - <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{tags prefix="on "}}</span>
